@@ -1,0 +1,41 @@
+
+.box1 {
+  background-color: orange;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  /*  絶対配置の指定とz-index
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3; */
+}
+
+.box2 {
+  /* box-sizing: border-box; */
+  background-color: skyblue;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  /* position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2; */
+/* border: 10px solid blue; */
+/* border-boxを含めることで大きさが一緒になる */
+margin: 0 auto;
+}
+
+.box3 {
+  background-color: tomato;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  /* position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: 1; */
+  margin-left: auto;
+}
+
+/* calc便利だな */

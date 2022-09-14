@@ -1,0 +1,101 @@
+/* h1{ */
+/* .info{
+  color: skyblue;
+}
+.title{
+  font-weight: normal;
+} */
+/* 
+*{
+  font-size: 12px;
+} */
+
+ /* [target]{
+  font-weight: bold;
+} */
+/* [href="#top"]{
+  font-weight: bold;
+} */
+/* [href^="https"]{
+  font-weight: bold;
+} */
+/* [href$="dotinstall"]{
+  font-weight: bold;
+} */
+/* [href*="com"]{
+  font-weight: bold;
+} */
+
+/* h1::before,
+h2::before{
+  content: '- ';
+}
+h1::after,
+h2::after{
+       content: ' -'; 
+content: attr(data-subtitle);
+}  ここの部分ちょっとむずかいかも*/
+
+/* .btn{
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+} */
+
+/* hoverはマウスカーソルが載ったという状態を表現している状態 hoverはよく使う！！！ */
+/* .btn:hover{
+opacity: 0.8;
+} */
+
+/* main > :nth-child(3){
+  background-color: pink;
+}
+main > :nth-child(2n){
+  background-color: pink;
+}              */
+/* main > :nth-child(odd){
+  oddは奇数
+  background-color: skyblue;
+}             
+main > :nth-child(even){
+  evenは偶数 
+    background-color: pink;
+}              */
+/* main > :first-child{
+  background-color: pink;
+}             
+main > :last-child{
+  background-color: skyblue;
+}              */
+
+
+
+/* main>h2:nth-of-type(3){
+  background-color: pink;
+} */
+/* main>h2:nth-of-type(even){
+  background-color: pink;
+} */
+/* main>h2:first-of-type{
+  background-color: pink;
+}
+main>h2:last-of-type{
+  background-color: skyblue;
+} */
+
+/* li:empty{
+  background: skyblue;
+} */
+ /* li:not(:empty){
+  background: skyblue;
+} */
+
+
+#about>#main{color: gray;}
+h1 {color: red;}
+h1#main.box{color:yellow}
+section>#main.title{color: blue;}
+section#about>h1{color:pink}

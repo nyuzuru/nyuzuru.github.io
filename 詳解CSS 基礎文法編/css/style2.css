@@ -1,0 +1,72 @@
+/* @charset "utf-8";
+
+h1{
+  font-family: Verdana , 'Arial Black', メイリオ, sans-serif;
+} */
+/* p {
+  font-size: 16px;
+  line-height:  48px;
+  /* line-height:  3em;
+  line-height:  3; */
+  /* background-color: pink; 
+ line-heightの3emと3は48pxを三倍するときの書き方 }  */ 
+
+/* main {
+  font-size: 32px;
+  line-height: 2em; 
+  line-height: 2;
+} */
+/* section {
+  font-size: 16px;
+}  */
+/* p {
+  line-height: 5;
+  background-color:  pink;
+} */
+/* img {
+  vertical-align: bottom;
+} */
+
+/* ul{
+  list-style-type: circle; 
+  list-style-position: inside;
+  list-style-image: url(../img/icon.png);
+  list-style: circle inside url(../img/icon.png);
+} */
+/* ol{
+  list-style-type: lower-alpha;
+  list-style: inside;
+  list-style-type: none;
+} */
+
+/* .info{
+  color: blue;
+} */
+
+.box1 {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+}
+
+.box2 {
+  background-color: skyblue;
+  width: 50%;
+  height: 50%;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+  /* border: 2px solid blue; 枠線*/
+  /* border: 2px dashed blue; 点線*/
+  /* border-top: 2px solid blue;
+  border-bottom: 2px solid blue; */
+  border: 2px solid blue;
+  /* border-bottom:none; */
+  border-radius: 10px;;
+}
+
+.box3 {
+  background-color: tomato;
+}
